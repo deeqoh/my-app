@@ -1,3 +1,9 @@
+body{
+  background-color: crimson;
+  background: url("background.jpg") repeat 0 0;
+  background-size: cover;
+ }
+
 .container {
     display: flex;
     flex-wrap: nowrap;
@@ -7,6 +13,8 @@
   }
 
 .link{
+    margin-top: 5px;
+    margin-bottom: 0px;
     text-align: center;
     text-decoration: none;
 }

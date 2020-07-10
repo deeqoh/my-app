@@ -4,6 +4,8 @@ import 'tachyons';
 import banner from './banner.jpg';
 import bann from './bann.jpg';
 import banner1 from './banner1.jpg';
+import cake01 from './cake01.jpg';
+import cake02 from './cake02.jpg';
 import Cake from './Cake.jpg';
 import cake1 from './cake1.jpg';
 import cake2 from './cake2.jpg';
@@ -43,240 +45,252 @@ class Hello extends Component {
         <a href="#" >Home |</a>
         <a href="#" >About Us |</a>
         <a href="#">Our Contact |</a>
-        <a href="#">Order Cakes</a>
+        <a href="#">Order Cake</a>
     </div>
     <div className="container">
-        <div><img src={banner} alt="Toni Tones NDani" width="500px" height="300px" /></div>
-        <div><img src={bann} alt="Toni Tones NDani" width="500px" height="300px"/></div>
-        <div><img src={banner1} alt="Toni Tones NDani" width="500px" height="300px"/></div>
+        <div><img src={banner} alt="photo" width="500px" height="300px" /></div>
+        <div><img src={bann} alt="photo" width="500px" height="300px"/></div>
+        <div><img src={banner1} alt="photo" width="500px" height="300px"/></div>
         </div>
         <div  className="link">
-        <a href="#">Click here</a> to schedule your event consultation appointment today with Deeqoh. We assure quality best services at all times</div>
+        <marquee behavior="scroll" direction="left">
+        <a href="#">Click here</a> to schedule your event consultation appointment today with Deeqoh. We assure best quality services at all times...</marquee>
+        </div>
         <br />
        <h4>Cakes and Cupcakes Gallery</h4>
        <hr />
        <div className='tc'>
+
+       <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
+            <img alt='photo' src={cake01} width="200" height="200" />
+            <div>
+                <span> Price:-₦10,000</span>
+            </div>
+        </div>
+
+        <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
+            <img alt='photo' src={cake02} width="200" height="200" />
+            <div>
+                <span> Price:-₦10,000</span>
+            </div>
+        </div>
+
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={Cake} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown CAke</p>
+                <span> Price:-₦6,000</span>
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake1} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦10,000</span>     
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake2} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦5,000</span>
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake3} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦5,000</span>       
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake4} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦5,000</span> 
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake5} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦6,000</span> 
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake7} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦10,000</span> 
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake8} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦5,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake9} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦5,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake10} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦8,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake11} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake12} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake13} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦6,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake14} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦6,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake15} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦4,500</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake16} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦5,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake17} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦4,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake18} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦4,500</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake19} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake20} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake21} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake22} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦5,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake23} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦10,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake24} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦10,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake25} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦10,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake26} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>Brown Cake</p>
+                <span> Price:-₦10,000</span>
+                
             </div>
         </div>
 
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow'>
             <img alt='photo' src={cake27} width="200" height="200" />
             <div>
-                <span> 6k(Six Thousand Naira)</span>
-                <p>CupCake</p>
+                <span> Price:-₦6,000</span>
             </div>
         </div>
         
 </div>
-
+<br />
 <hr />
 
-<footer> Copyright &copy 2020</footer>
+<footer className='tc'>
+     <span>Copyright 2020</span>
+     <p>Contact 08033397319 for web design and animation</p>
+     </footer>
 
         </Fragment>
        )
