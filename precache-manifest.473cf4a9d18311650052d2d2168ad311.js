@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7766e4d740beff8d404548f6c887ef4b",
+    "revision": "3d32758b33d505b098f1b6b6f79e5f21",
     "url": "/my-app/index.html"
   },
   {
-    "revision": "f36b90bd9f8b6ba35ffb",
+    "revision": "a4b8b654cb49ecc21e1e",
     "url": "/my-app/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "8044f10f10155cbb3e08",
-    "url": "/my-app/static/css/main.ba478e25.chunk.css"
+    "revision": "c90ee17c1e49ed70e76c",
+    "url": "/my-app/static/css/main.4bb1ce4c.chunk.css"
   },
   {
-    "revision": "f36b90bd9f8b6ba35ffb",
-    "url": "/my-app/static/js/2.5a4e8572.chunk.js"
+    "revision": "a4b8b654cb49ecc21e1e",
+    "url": "/my-app/static/js/2.17f77844.chunk.js"
   },
   {
     "revision": "6287c65a6963df837d60dc49bb220910",
-    "url": "/my-app/static/js/2.5a4e8572.chunk.js.LICENSE.txt"
+    "url": "/my-app/static/js/2.17f77844.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8044f10f10155cbb3e08",
-    "url": "/my-app/static/js/main.dcd42a0d.chunk.js"
+    "revision": "c90ee17c1e49ed70e76c",
+    "url": "/my-app/static/js/main.d7de8259.chunk.js"
   },
   {
     "revision": "833d64ac4bae055be974",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "847d9e7be1812448afe0e77cd03cfc86",
     "url": "/my-app/static/media/Cake.847d9e7b.jpg"
+  },
+  {
+    "revision": "4d644644453494113c0a8846f039eb23",
+    "url": "/my-app/static/media/background.4d644644.jpg"
   },
   {
     "revision": "7789e135c8a912c461a01b8719b1c901",
@@ -42,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d68a8a0da8b640920e8a4b8271c99e2",
     "url": "/my-app/static/media/banner1.3d68a8a0.jpg"
+  },
+  {
+    "revision": "4404b0373caf901ed9c1171e11a0eeda",
+    "url": "/my-app/static/media/cake01.4404b037.jpg"
+  },
+  {
+    "revision": "16a0e6eb56bbd25979d93f918b6df7aa",
+    "url": "/my-app/static/media/cake02.16a0e6eb.jpg"
   },
   {
     "revision": "9213ff89d0840a69f636fe5fc0df5667",
@@ -140,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-app/static/media/cake6.7ed2b5bb.jpg"
   },
   {
-    "revision": "b84f863e27d1d14a7b696b74c393f938",
-    "url": "/my-app/static/media/cake7.b84f863e.jpg"
+    "revision": "ed85a537fab77298f78dd5d516b86c57",
+    "url": "/my-app/static/media/cake7.ed85a537.jpg"
   },
   {
     "revision": "0db65326aa4132ecd43680526d181d74",
